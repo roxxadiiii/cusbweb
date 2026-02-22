@@ -6,14 +6,14 @@
 
 ### 🏛️ University Site Reboot
 
-**Status:** Tech stack decided, awaiting user direction on next step.
+**Status:** Finalizing plan with Harvard menu, Stanford hero/footer, and NITT sitemap.
 
 **Decided Stack:**
 - Framework: Next.js 15 (App Router)
 - Styling: Tailwind CSS v4 + shadcn/ui
 - Animations: Framer Motion
 - CMS: Sanity.io (optional)
-- Deployment: Vercel
+- Deployment: Netlify
 
 **Planned Pages:**
 - [ ] Hero / Landing
@@ -23,6 +23,7 @@
 - [ ] Faculty Directory
 - [ ] News & Events
 - [ ] Contact / Map
+- [ ] Theme Switcher (Dark/Light Mode)
 
 **Next Decision:** Start build / create detailed plan / view UI mockup
 

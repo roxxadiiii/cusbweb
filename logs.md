@@ -11,7 +11,7 @@
 - **Styling:** Tailwind CSS v4 + shadcn/ui
 - **Animations:** Framer Motion
 - **CMS:** Sanity.io (optional)
-- **Deployment:** Vercel
+- **Deployment:** Netlify
 
 **Next step:** User to decide between starting the build, creating a detailed plan, or seeing UI examples.
 
@@ -24,4 +24,12 @@
 **Assistant acknowledged:** Both files initialized. Going forward:
 - All conversation summaries and notable exchanges will be appended to `logs.md`.
 - All plans, task breakdowns, and future actions will be recorded in `plans.md`.
+
+---
+
+## 2026-02-22 — Theme Switcher Request
+
+**User:** Requested to add a theme switcher (dark and light mode) to the plan/todolist.
+
+**Assistant action:** Added "Theme Switcher (Dark/Light Mode)" to the planned features in `plans.md`. Suggested using `next-themes` for seamless integration with shadcn/ui and Next.js.
 
