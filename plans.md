@@ -27,7 +27,7 @@
 - [ ] Theme Switcher (Dark/Light Mode)
 - [ ] Site map
 **Next Decision:** Start build / create detailed plan / view UI mockup
-
+when i scroll down the text fg of cusb should be of offwhite to match the lower bg
 ---
 
 ## Completed Plans

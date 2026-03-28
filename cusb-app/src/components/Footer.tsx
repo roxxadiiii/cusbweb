@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 // Inline brand icons (lucide-react dropped social icons in v0.460+)
@@ -102,11 +103,8 @@ export function Footer() {
           <div className="lg:col-span-1">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 mb-6" id="footer-logo">
-              <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center text-white font-display font-bold text-xl flex-shrink-0"
-                style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.15)" }}
-              >
-                C
+              <div className="relative w-12 h-12 flex-shrink-0">
+                <Image src="/cusb-logo.png" alt="CUSB Logo" fill className="object-contain" />
               </div>
               <div className="leading-tight">
                 <div className="font-display font-bold text-white text-sm">Central University</div>
