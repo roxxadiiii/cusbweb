@@ -14,6 +14,7 @@
 - Animations: Framer Motion
 - CMS: Sanity.io (optional)
 - Deployment: Netlify
+- keep the theme similar to material3 design principle
 
 **Planned Pages:**
 - [ ] Hero / Landing
@@ -24,7 +25,7 @@
 - [ ] News & Events
 - [ ] Contact / Map
 - [ ] Theme Switcher (Dark/Light Mode)
-
+- [ ] Site map
 **Next Decision:** Start build / create detailed plan / view UI mockup
 
 ---
