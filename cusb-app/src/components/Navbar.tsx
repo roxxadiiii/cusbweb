@@ -11,6 +11,7 @@ const navItems = [
   { label: "Academics", href: "/academics" },
   { label: "Admissions", href: "/admissions" },
   { label: "Research", href: "/research" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Campus", href: "/contact" },
   { label: "About", href: "/about" },
   { label: "News", href: "/news" },
@@ -47,13 +48,13 @@ export function Navbar() {
     <>
       <header
         id="navbar"
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md ${
           isTransparent
-            ? "bg-transparent border-transparent"
+            ? "border-transparent bg-black/10"
             : "border-b shadow-sm"
         }`}
         style={{
-          backgroundColor: isTransparent ? "transparent" : "rgb(var(--color-card))",
+          backgroundColor: isTransparent ? undefined : "rgb(var(--color-card) / 0.8)",
           borderBottomColor: isTransparent ? "transparent" : "rgb(var(--color-border))",
         }}
       >

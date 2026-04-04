@@ -124,19 +124,17 @@ export default function HomePage() {
           }}
         />
 
-        <div className="container-site relative z-20 pt-24 pb-20 text-center">
-          {/* Badge */}
+        <div className="container-site relative z-20 pt-24 pb-20 text-center flex flex-col items-center gap-6">
+          {/* Badge Capsule */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-6"
           >
             <span
-              className="inline-block text-xs font-body font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full"
+              className="inline-block text-xs font-body font-semibold uppercase tracking-widest px-6 py-2 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 shadow-lg border border-white/20"
               style={{
                 background: "rgba(245,158,11,0.15)",
-                border: "1px solid rgba(245,158,11,0.3)",
                 color: "rgb(var(--color-secondary))",
               }}
             >
@@ -144,28 +142,38 @@ export default function HomePage() {
             </span>
           </motion.div>
 
-          {/* Main Heading */}
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.15 }}
-            className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold text-white leading-tight mb-6"
-          >
-            Collective
-            <br />
-            <span style={{ color: "rgb(var(--color-secondary))" }}>Reasoning.</span>
-          </motion.h1>
+          {/* Main Heading Separate Pills */}
+          <div className="flex flex-col items-center gap-4">
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.15 }}
+              className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-tight"
+            >
+              <div className="inline-block px-10 py-4 mb-2 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl text-white">
+                Collective
+              </div>
+              <br />
+              <div 
+                className="inline-block px-10 py-4 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl"
+                style={{ color: "rgb(var(--color-secondary))" }}
+              >
+                Reasoning.
+              </div>
+            </motion.h1>
+          </div>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="text-lg sm:text-xl font-body max-w-2xl mx-auto leading-relaxed mb-10"
-            style={{ color: "rgba(255,255,255,0.7)" }}
+            className="max-w-2xl px-8 py-6 rounded-[2rem] backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-xl"
           >
-            Central University of South Bihar — nurturing knowledge, research,
-            and innovation on a 300-acre campus in Panchanpur, Gaya.
-          </motion.p>
+            <p className="text-lg sm:text-xl font-body leading-relaxed text-white/80">
+              Central University of South Bihar — nurturing knowledge, research,
+              and innovation on a 300-acre campus in Panchanpur, Gaya.
+            </p>
+          </motion.div>
 
           {/* CTAs */}
           <motion.div
@@ -177,18 +185,16 @@ export default function HomePage() {
             <Link
               href="/academics"
               id="hero-explore-btn"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-xl"
-              style={{ background: "white", color: "rgb(var(--color-primary))" }}
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-xl backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl"
+              style={{ color: "white" }}
             >
               Explore Programmes <ArrowRight size={16} />
             </Link>
             <Link
               href="/admissions"
               id="hero-apply-btn"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl"
               style={{
-                background: "rgba(245,158,11,0.15)",
-                border: "1px solid rgba(245,158,11,0.4)",
                 color: "rgb(var(--color-secondary))",
               }}
             >
