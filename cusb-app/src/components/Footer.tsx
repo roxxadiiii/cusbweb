@@ -39,9 +39,9 @@ const footerSections = [
     links: [
       { label: "Departments", href: "/academics" },
       { label: "Academic Programmes", href: "/academics" },
-      { label: "Rules & Regulations", href: "#" },
-      { label: "Examination", href: "#" },
-      { label: "CBCS System", href: "#" },
+      { label: "Academic Calendar", href: "/notices" },
+      { label: "Examination", href: "/notices" },
+      { label: "Downloads", href: "/downloads" },
     ],
   },
   {
@@ -49,29 +49,29 @@ const footerSections = [
     links: [
       { label: "How to Apply", href: "/admissions" },
       { label: "CUET Admissions", href: "/admissions" },
-      { label: "Fee Structure", href: "#" },
-      { label: "Scholarships", href: "#" },
-      { label: "Ph.D. Admissions", href: "#" },
+      { label: "Fee Structure", href: "/admissions" },
+      { label: "Scholarships", href: "/admissions" },
+      { label: "Ph.D. Admissions", href: "/admissions" },
     ],
   },
   {
     title: "Student Life",
     links: [
-      { label: "Clubs & Associations", href: "#" },
-      { label: "Hostel & Mess", href: "#" },
-      { label: "Sports & Activities", href: "#" },
-      { label: "Student Welfare", href: "#" },
-      { label: "Alumni", href: "#" },
+      { label: "Clubs & Associations", href: "/about" },
+      { label: "Hostel & Mess", href: "/about" },
+      { label: "Sports & Activities", href: "/about" },
+      { label: "Student Welfare", href: "/about" },
+      { label: "Gallery", href: "/gallery" },
     ],
   },
   {
     title: "Institute",
     links: [
       { label: "About CUSB", href: "/about" },
-      { label: "Administration", href: "#" },
+      { label: "Administration", href: "/administration" },
       { label: "Faculty Directory", href: "/faculty" },
       { label: "News & Events", href: "/news" },
-      { label: "RTI", href: "#" },
+      { label: "A–Z Index", href: "/atoz" },
     ],
   },
 ];
@@ -88,8 +88,9 @@ const legalLinks = [
   { label: "Privacy Policy", href: "#" },
   { label: "Terms of Use", href: "#" },
   { label: "Accessibility", href: "#" },
+  { label: "A–Z Index", href: "/atoz" },
   { label: "Sitemap", href: "/sitemap" },
-  { label: "RTI", href: "#" },
+  { label: "RTI", href: "/about" },
   { label: "Public Self Disclosure", href: "#" },
 ];
 

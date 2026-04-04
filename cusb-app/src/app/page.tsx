@@ -132,10 +132,10 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
           >
             <span
-              className="inline-block text-xs font-body font-semibold uppercase tracking-widest px-6 py-2 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 shadow-lg border border-white/20"
+              className="inline-block text-xs font-body font-semibold uppercase tracking-widest px-6 py-2 rounded-full backdrop-saturate-150 shadow-lg border border-white/20"
               style={{
                 background: "rgba(245,158,11,0.15)",
-                color: "rgb(var(--color-secondary))",
+                color: "rgb(var(--color-on-surface))",
               }}
             >
               UGC Category I University · Est. 2009
@@ -150,13 +150,12 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-tight"
             >
-              <div className="inline-block px-10 py-4 mb-2 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl text-white">
+              <div className="inline-block px-10 py-4 mb-2 rounded-full backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl text-on-surface">
                 Collective
               </div>
               <br />
               <div 
-                className="inline-block px-10 py-4 rounded-full backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl"
-                style={{ color: "rgb(var(--color-secondary))" }}
+                className="inline-block px-10 py-4 rounded-full backdrop-saturate-150 bg-white/5 border border-white/10 shadow-2xl text-on-surface"
               >
                 Reasoning.
               </div>
@@ -167,9 +166,9 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="max-w-2xl px-8 py-6 rounded-[2rem] backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-xl"
+            className="max-w-2xl px-8 py-6 rounded-[2rem] backdrop-saturate-150 bg-white/5 border border-white/10 shadow-xl"
           >
-            <p className="text-lg sm:text-xl font-body leading-relaxed text-white/80">
+            <p className="text-lg sm:text-xl font-body leading-relaxed text-on-surface">
               Central University of South Bihar — nurturing knowledge, research,
               and innovation on a 300-acre campus in Panchanpur, Gaya.
             </p>
@@ -185,18 +184,14 @@ export default function HomePage() {
             <Link
               href="/academics"
               id="hero-explore-btn"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-xl backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl"
-              style={{ color: "white" }}
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-xl backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl text-on-surface"
             >
               Explore Programmes <ArrowRight size={16} />
             </Link>
             <Link
               href="/admissions"
               id="hero-apply-btn"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 backdrop-blur-[1.5px] backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl"
-              style={{
-                color: "rgb(var(--color-secondary))",
-              }}
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-body font-semibold text-sm transition-all duration-300 hover:scale-105 backdrop-saturate-150 bg-white/10 border border-white/20 shadow-xl text-on-surface"
             >
               Apply via CUET <ChevronRight size={16} />
             </Link>

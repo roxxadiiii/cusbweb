@@ -18,13 +18,13 @@ const navItems = [
 ];
 
 const quickLinks = [
-  { label: "A–Z Index", href: "/sitemap" },
+  { label: "A–Z Index", href: "/atoz" },
   { label: "Student Portal", href: "#" },
   { label: "Staff Portal", href: "#" },
   { label: "Downloads", href: "/downloads" },
   { label: "Notices", href: "/notices" },
   { label: "Administration", href: "/administration" },
-  { label: "Sitemap", href: "/sitemap" },
+  { label: "Site Map", href: "/sitemap" },
 ];
 
 export function Navbar() {
