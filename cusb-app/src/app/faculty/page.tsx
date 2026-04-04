@@ -1,7 +1,5 @@
 "use client";
-
 import { motion } from "framer-motion";
-import { SectionHeading } from "@/components/SectionHeading";
 import { Search, Mail, BookOpen } from "lucide-react";
 import { useState } from "react";
 

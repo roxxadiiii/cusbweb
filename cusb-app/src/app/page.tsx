@@ -217,7 +217,7 @@ export default function HomePage() {
               subtitle="Central University of South Bihar, Gaya, India, is one among 54 central universities of the Federal Government, established under the Central Universities Act, 2009 as a UGC Category I University."
             />
             <p className="text-muted font-body text-sm leading-relaxed mb-8">
-              Located on a pristine 300-acre campus at Panchanpur, the university offers multidisciplinary programmes, world-class faculty, and a vibrant student community. Our motto <strong>"Collective Reasoning"</strong> reflects our commitment to collaborative inquiry and innovative pedagogy.
+              Located on a pristine 300-acre campus at Panchanpur, the university offers multidisciplinary programmes, world-class faculty, and a vibrant student community. Our motto <strong>&quot;Collective Reasoning&quot;</strong> reflects our commitment to collaborative inquiry and innovative pedagogy.
             </p>
             <Link
               href="/about"

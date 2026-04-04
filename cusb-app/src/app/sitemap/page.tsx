@@ -1,4 +1,3 @@
-import { SectionHeading } from "@/components/SectionHeading";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 

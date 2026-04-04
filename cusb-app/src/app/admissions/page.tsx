@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ArrowRight, CheckCircle2, Clock, FileText, GraduationCap } from "lucide-react";
-import Link from "next/link";
 
 const programmes = [
   { name: "B.Sc. / B.A. (Hons.)", duration: "3 Years", eligibility: "10+2 or equivalent", mode: "CUET-UG" },

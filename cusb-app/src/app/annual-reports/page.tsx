@@ -1,5 +1,4 @@
 import { SectionHeading } from "@/components/SectionHeading";
-import Link from "next/link";
 import { FileText, ExternalLink, ChevronRight } from "lucide-react";
 
 const quarters = [
@@ -49,7 +48,7 @@ export default function AnnualReportsPage() {
           <p className="text-xs font-body uppercase tracking-widest mb-3" style={{ color: "rgba(255,255,255,0.5)" }}>Transparency & Governance</p>
           <h1 className="font-display font-bold text-5xl sm:text-6xl text-white leading-tight mb-4">Annual Reports</h1>
           <p className="text-base font-body max-w-2xl leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-            Access CUSB's annual reports, audited statements, committee minutes, and public disclosures as mandated by UGC and Government guidelines.
+            Access CUSB&apos;s annual reports, audited statements, committee minutes, and public disclosures as mandated by UGC and Government guidelines.
           </p>
         </div>
       </section>

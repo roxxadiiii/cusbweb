@@ -1,5 +1,4 @@
 import { SectionHeading } from "@/components/SectionHeading";
-import Link from "next/link";
 import { ExternalLink, ArrowRight } from "lucide-react";
 
 const scholarships = [

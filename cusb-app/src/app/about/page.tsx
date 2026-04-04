@@ -58,7 +58,7 @@ export default function AboutPage() {
                 It was established under the <strong className="text-on-surface">Central Universities Act, 2009</strong> (Section 25 of 2009) as Central University of Bihar (CUB) and the name since changed by the Central Universities (Amendment) Act, 2014 to Central University of South Bihar (CUSB). It is an institution of higher learning in the state of Bihar.
               </p>
               <p>
-                With the motto <strong className="text-on-surface">"Collective Reasoning"</strong>, the University has been conducting its academic and administrative activities from a permanent campus on a 300-acre plot of land at Panchanpur, situated about 15 kms away from Gaya town.
+                With the motto <strong className="text-on-surface">&quot;Collective Reasoning&quot;</strong>, the University has been conducting its academic and administrative activities from a permanent campus on a 300-acre plot of land at Panchanpur, situated about 15 kms away from Gaya town.
               </p>
               <p>
                 The University welcomes all with a grand Entrance Plaza and further provides visual delight with a half-globe shaped Stupa and a magnificent multi-storied Administrative Block. The Schools named Aryabhatta Bhawan, Malaviya Bhawan, Vivekanand Lecture Complex, Sangharam Guest House, Boys Hostel named Gargi Sadan and Girls Hostel named Maitreyi Sadan together offer a pristine environment for academic and co-curricular activities.

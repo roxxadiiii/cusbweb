@@ -1,5 +1,4 @@
 import { SectionHeading } from "@/components/SectionHeading";
-import Link from "next/link";
 import { FileText, ArrowRight, Calendar } from "lucide-react";
 
 const examSchedule = [
