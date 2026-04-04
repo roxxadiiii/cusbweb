@@ -21,7 +21,9 @@ const quickLinks = [
   { label: "A–Z Index", href: "/sitemap" },
   { label: "Student Portal", href: "#" },
   { label: "Staff Portal", href: "#" },
-  { label: "Faculty Directory", href: "/faculty" },
+  { label: "Downloads", href: "/downloads" },
+  { label: "Notices", href: "/notices" },
+  { label: "Administration", href: "/administration" },
   { label: "Sitemap", href: "/sitemap" },
 ];
 

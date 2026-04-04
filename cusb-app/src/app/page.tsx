@@ -67,12 +67,12 @@ const departments = [
 ];
 
 const quickLinks = [
-  { label: "Download Forms", icon: <Download size={16} />, href: "#" },
-  { label: "Academic Notices", icon: <Bell size={16} />, href: "#" },
+  { label: "Download Forms", icon: <Download size={16} />, href: "/downloads" },
+  { label: "Academic Notices", icon: <Bell size={16} />, href: "/notices" },
   { label: "Upcoming Events", icon: <Calendar size={16} />, href: "/news" },
   { label: "Recruitment", icon: <Briefcase size={16} />, href: "/news" },
   { label: "Faculty Directory", icon: <Users size={16} />, href: "/faculty" },
-  { label: "Administration", icon: <Building2 size={16} />, href: "#" },
+  { label: "Administration", icon: <Building2 size={16} />, href: "/administration" },
 ];
 
 /* ─── Page ─────────────────────────────────────────── */
