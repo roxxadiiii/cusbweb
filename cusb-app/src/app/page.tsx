@@ -87,24 +87,44 @@ export default function HomePage() {
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
         style={{ background: "rgb(var(--color-primary))" }}
       >
-        {/* Background pattern */}
-        <div
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: `radial-gradient(circle at 20% 50%, rgba(255,255,255,0.3) 0%, transparent 50%),
-              radial-gradient(circle at 80% 20%, rgba(245,158,11,0.4) 0%, transparent 40%)`,
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0 opacity-60"
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+        </video>
+
+        {/* Global Overlay Layer */}
+        <div 
+          className="absolute inset-0 z-5"
+          style={{ 
+            background: "linear-gradient(to bottom, rgba(var(--color-primary), 0.8), rgba(var(--color-primary), 0.4) 50%, rgba(var(--color-primary), 0.8))"
           }}
         />
-        {/* Grid texture */}
+
+        {/* Ambient Glows */}
         <div
-          className="absolute inset-0 opacity-[0.03]"
+          className="absolute inset-0 z-10 opacity-30"
+          style={{
+            backgroundImage: `radial-gradient(circle at 20% 50%, rgba(255,255,255,0.2) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(245,158,11,0.3) 0%, transparent 40%)`,
+          }}
+        />
+        
+        {/* Grid Texture Overlay */}
+        <div
+          className="absolute inset-0 z-15 opacity-[0.05]"
           style={{
             backgroundImage: `linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)`,
             backgroundSize: "60px 60px",
           }}
         />
 
-        <div className="container-site relative z-10 pt-24 pb-20 text-center">
+        <div className="container-site relative z-20 pt-24 pb-20 text-center">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
